@@ -1,0 +1,40 @@
+# Log load
+logs
+*.log
+
+# config cache
+config.prod.py
+config.dev.py
+config.test.py
+config.py
+
+#deploying detritus
+dep*.zip
+deploy/
+
+#python poop
+pip-selfcheck.json
+*.pyc
+__pycache__
+venv/
+env/
+.pytest_cache/
+.coverage
+travisenv
+
+#google gook
+calendar-python-quickstart.json
+token.pickle
+client_secret.json
+
+#IDE ideal
+.idea/
+*.iml
+*.xml
+
+#emacs
+*~
+
+.serverless/*
+package-lock.json
+node_modules/**
